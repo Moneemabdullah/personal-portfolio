@@ -48,52 +48,77 @@ A modern, professional portfolio website showcasing full-stack development skill
    - Contact information cards
    - Social media links
 
-## 📁 Files Included
+## 📁 Project Structure
 
-- `index.html` - Main HTML structure
-- `index.css` - Complete styling with animations
-- `script.js` - Interactive functionality
+```
+portfolio/
+├── index.html                  # Semantic HTML shell + meta/OG/JSON-LD
+├── assets/
+│   ├── images/                 # photos, project screenshots, favicons
+│   ├── icons/                  # UI icons (SVG)
+│   └── resume/                 # downloadable PDFs
+├── css/
+│   ├── variables.css           # design tokens (colors, fonts, spacing)
+│   ├── base.css                # resets, typography, motion preferences
+│   ├── layout.css              # container, sections, skip-link
+│   ├── components.css          # nav, buttons, tags, back-to-top, loader
+│   ├── sections.css            # per-section styles
+│   └── responsive.css          # media queries
+├── js/
+│   ├── main.js                 # fetches data/portfolio.json, renders DOM
+│   ├── observer.js             # fade-in + active navbar highlighting
+│   └── animations.js           # scroll progress, back-to-top, loader
+├── data/
+│   └── portfolio.json          # single source of truth for content
+├── CNAME                       # custom domain (moneem.pro.bd)
+└── README.md
+```
 
 ## 🛠️ Setup Instructions
 
-1. **Replace the profile image**:
-   - Add your photo to `/images/moneem1.jpg`
-   - Or update the image path in `index.html` (line 79)
+1. **Profile image**:
+   - Replace `assets/images/moneem1.jpg`
+   - The path is referenced in `index.html` (Open Graph `og:image`) and can be changed there.
 
 2. **Update contact email**:
-   - Current: `moneemabdullha2000@gmail.com`
-   - Update in `index.html` (line 468)
+   - Current: `moneem.all.abdullah@gmail.com`
+   - Edit `data/portfolio.json` → `site.email` and the matching entry in `contact.cards`.
 
 3. **Update CV/Resume link**:
-   - Current Google Drive link in navigation
-   - Update in `index.html` (line 30)
+   - Download URL is in `data/portfolio.json` → `hero.actions[0].href`
+     and `contact.cards[Resume / CV]`.
+   - To also serve a local PDF, drop the file in `assets/resume/` and update the JSON.
 
 4. **Add project images** (optional):
-   - The project cards use gradient backgrounds
-   - You can add actual project screenshots in the `.project-image` sections
+   - The project cards use text-only layouts by default.
+   - Drop screenshots into `assets/images/` and reference them from `data/portfolio.json` (`projects[].image`).
 
 ## 🎨 Customization
 
 ### Colors
-Edit CSS variables in `index.css` (lines 1-30):
+Edit CSS variables in `css/variables.css`:
 ```css
---primary: #00f0ff;
---secondary: #ff00ff;
---gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+--bg:        #f5f3ef;
+--surface:   #edeae4;
+--border:    #d6d1c8;
+--text:      #1a1916;
+--muted:     #6b6760;
+--accent:    #2b5be0;
+--accent-dk: #1a3ea8;
 ```
 
 ### Fonts
 Current fonts (Google Fonts):
-- **Headings**: Syne
-- **Body**: JetBrains Mono
+- **Headings**: DM Serif Display
+- **Body**: DM Sans
+- **Mono**: DM Mono
 
-To change fonts, update the Google Fonts import in `index.html` (line 13) and CSS variables.
+To change fonts, update the Google Fonts URL in `index.html` and the `--font-serif`, `--font-sans`, `--font-mono` tokens in `css/variables.css`.
 
 ### Content
-- All text content can be edited directly in `index.html`
-- Update your stats in the hero section
-- Add/remove projects in the projects section
-- Update achievements with your own milestones
+- All copy, projects, skills, hackathons, and contact links live in `data/portfolio.json`.
+- The `js/main.js` module reads this file at load time and renders the dynamic sections.
+- For a fully static site (no fetch), edit the matching HTML blocks directly in `index.html` — they're rendered as a no-JS fallback.
 
 ## 🌐 Deployment
 

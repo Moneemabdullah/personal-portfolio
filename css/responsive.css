@@ -1,0 +1,39 @@
+/* =====================================================
+   responsive.css
+   Breakpoints and responsive adjustments.
+   ===================================================== */
+
+/* Tablet / small laptop */
+@media (max-width: 1024px) {
+  .hero-badge { min-width: 156px; }
+  .contact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  #hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-badge { display: none; }
+  .about-grid,
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-header { flex-direction: column; }
+  .hackathon-row { grid-template-columns: 30px 1fr; }
+  .hackathon-year { display: none; }
+  .site-footer { flex-direction: column; gap: 8px; text-align: center; }
+  .nav-links { gap: 18px; }
+  .back-to-top { bottom: 16px; right: 16px; }
+  /* Tighten side padding on small screens so content fits */
+  .container,
+  .nav-inner,
+  .site-footer { padding-left: 16px; padding-right: 16px; }
+  section { padding: 56px 0; }
+  .contact-card { padding: 16px 18px; }
+  /* Prevent long handles from overflowing the card */
+  .detail-val { overflow-wrap: anywhere; word-break: break-word; }
+  .hero-actions { flex-wrap: wrap; }
+  .hero-actions .btn { flex: 1 1 auto; justify-content: center; }
+}

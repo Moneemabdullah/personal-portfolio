@@ -1,0 +1,194 @@
+/* =====================================================
+   components.css
+   Reusable UI pieces: nav, buttons, cards, tags, badges.
+   ===================================================== */
+
+/* ---------- NAV ---------- */
+.site-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(245, 243, 239, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+}
+.nav-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--container-pad);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  color: var(--text);
+}
+.nav-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  min-width: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.nav-links a {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--muted);
+  transition: color var(--transition-base);
+}
+.nav-links a:hover { color: var(--text); }
+.nav-links a[aria-current="true"] {
+  color: var(--accent);
+  position: relative;
+}
+.nav-links a[aria-current="true"]::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -6px;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* Scroll progress bar (top of page) */
+.scroll-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px;
+  width: 0;
+  background: var(--accent);
+  z-index: 101;
+  transition: width 0.05s linear;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 9px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  border: 1px solid transparent;
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover { background: var(--accent-dk); }
+.btn-outline {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+.btn-outline:hover {
+  border-color: var(--text);
+  background: var(--surface);
+}
+
+/* ---------- TAGS / CHIPS ---------- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.tag,
+.stack-tag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 4px 10px;
+  background: var(--tag-bg);
+  color: var(--code);
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  display: inline-block;
+}
+.tag.hi {
+  background: var(--tag-hi-bg);
+  color: var(--tag-hi-fg);
+  border-color: var(--tag-hi-border);
+}
+.stack-tag {
+  font-size: 11.5px;
+  padding: 3px 9px;
+}
+
+/* ---------- BACK TO TOP ---------- */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.2s, transform 0.2s, background 0.15s;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+}
+.back-to-top:hover { background: var(--accent-dk); }
+
+/* ---------- LOADING SHIM ---------- */
+.app-loader {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  transition: opacity 0.3s ease;
+}
+.app-loader.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.app-loader__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(0.6); opacity: 0.4; }
+  50%      { transform: scale(1);   opacity: 1; }
+}
+
+/* ---------- FADE IN ---------- */
+.fade {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity var(--transition-slow) ease,
+              transform var(--transition-slow) ease;
+}
+.fade.is-visible {
+  opacity: 1;
+  transform: none;
+}

@@ -1,0 +1,223 @@
+{
+  "site": {
+    "name": "Abdullah Al Moneem",
+    "shortName": "Moneem",
+    "title": "Abdullah Al Moneem — Backend & Full-Stack Developer",
+    "description": "Backend & full-stack developer. I build REST APIs, auth systems, and web applications — with TypeScript, Node.js, and a focus on clean structure.",
+    "url": "https://moneem.pro.bd",
+    "email": "moneem.all.abdullah@gmail.com",
+    "location": "Bangladesh",
+    "locale": "en_US",
+    "image": "/assets/images/moneem1.jpg"
+  },
+  "nav": [
+    { "label": "About",     "href": "#about" },
+    { "label": "Skills",    "href": "#skills" },
+    { "label": "Projects",  "href": "#projects" },
+    { "label": "Hackathons","href": "#hackathons" },
+    { "label": "Contact",   "href": "#contact" }
+  ],
+  "hero": {
+    "eyebrow": "Open to opportunities",
+    "name": "Abdullah Al<br>Moneem",
+    "sub": "Backend & full-stack developer. I build REST APIs, auth systems, and web applications — with TypeScript, Node.js, and a focus on clean structure.",
+    "actions": [
+      { "label": "↓ Download CV", "href": "https://drive.google.com/file/d/1nUPsydlu0WvAMucFUnmZjaAKpyJVyksH/view?usp=sharing", "variant": "primary", "external": true },
+      { "label": "GitHub",       "href": "https://github.com/Moneemabdullah", "variant": "outline",  "external": true },
+      { "label": "Email me",     "href": "mailto:moneem.all.abdullah@gmail.com", "variant": "outline" }
+    ],
+    "badges": [
+      { "num": "33+",  "label": "Public repos" },
+      { "num": "300+", "label": "DSA problems" },
+      { "num": "3×",   "label": "Hackathon places" }
+    ]
+  },
+  "about": {
+    "label": "Background",
+    "heading": "About Me",
+    "paragraphs": [
+      "I'm a CSE student at BAIUST, Bangladesh, focused on backend engineering and full-stack development. I enjoy building systems that are well-structured and maintainable — not just working code.",
+      "I've built projects ranging from an IoT-integrated agriculture platform to a multi-role vaccination management system, with proper authentication, role-based access, and clean folder architecture.",
+      "Outside of coding, I do competitive programming (300+ problems solved) and have placed in three university-level hackathons."
+    ],
+    "details": [
+      { "key": "UNIVERSITY", "value": "BAIUST" },
+      { "key": "DEGREE",     "value": "BSc CSE, 2022 – Present" },
+      { "key": "LOCATION",   "value": "Bangladesh" },
+      { "key": "WEBSITE",    "value": "moneem.pro.bd", "href": "https://moneem.pro.bd" },
+      { "key": "LEETCODE",   "value": "user7674pr",    "href": "https://leetcode.com/user7674pr/" },
+      { "key": "LANGUAGES",  "value": "Bangla · English · Hindi" }
+    ]
+  },
+  "skills": {
+    "label": "Capabilities",
+    "heading": "Technical Skills",
+    "categories": [
+      {
+        "name": "Backend",
+        "tags": [
+          { "label": "Node.js", "highlight": true },
+          { "label": "Express.js", "highlight": true },
+          { "label": "TypeScript", "highlight": true },
+          { "label": "JWT Auth" },
+          { "label": "RBAC" },
+          { "label": "Prisma ORM" },
+          { "label": "REST API" },
+          { "label": "Nodemailer" },
+          { "label": "node-cron" },
+          { "label": "Helmet" },
+          { "label": "Zod" }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "tags": [
+          { "label": "React",       "highlight": true },
+          { "label": "TypeScript",  "highlight": true },
+          { "label": "Vite" },
+          { "label": "Tailwind CSS" },
+          { "label": "Bootstrap" },
+          { "label": "HTML / CSS" }
+        ]
+      },
+      {
+        "name": "Databases",
+        "tags": [
+          { "label": "PostgreSQL" },
+          { "label": "MongoDB" },
+          { "label": "MySQL" },
+          { "label": "SQLite" },
+          { "label": "Mongoose" }
+        ]
+      },
+      {
+        "name": "Tools & Systems",
+        "tags": [
+          { "label": "Git / GitHub" },
+          { "label": "Docker" },
+          { "label": "Vercel" },
+          { "label": "Cloudinary" },
+          { "label": "Linux" },
+          { "label": "CI/CD" },
+          { "label": "C / C++" },
+          { "label": "Python" },
+          { "label": "Django" }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Agriculture on Smart Way",
+      "description": "Full-stack smart agriculture platform connecting farmers, suppliers, and consumers. Integrates real-time IoT telemetry from Arduino (ESP32) sensors for soil and environment monitoring. 30+ REST API endpoints, role-based dashboards, CI/CD workflows, Cloudinary image upload, and Docker containerization.",
+      "stack": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Docker", "Arduino / IoT", "Vercel"],
+      "links": [
+        { "label": "↗ Live",   "href": "https://agriculter-smartway.vercel.app/" },
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/Agriculter_ON_SmartWay" }
+      ]
+    },
+    {
+      "name": "Food Portal Server",
+      "description": "Production backend for a food portal. Features better-auth authentication, Cloudinary image upload via Multer, Nodemailer for emails, and Prisma ORM with PostgreSQL. Built fully in TypeScript with proper environment config and deployed on Vercel.",
+      "stack": ["TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Cloudinary", "Vercel"],
+      "links": [
+        { "label": "↗ Live",   "href": "https://food-protal-server.vercel.app" },
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/FoodProtalServer" }
+      ]
+    },
+    {
+      "name": "Vaccination Management System",
+      "description": "Backend for a multi-role vaccination platform (admin, doctor, patient). JWT authentication, appointment booking, medical history, doctor approval workflow, and automated email reminders via node-cron. Clean MVC folder structure.",
+      "stack": ["Node.js", "Express", "MongoDB", "JWT", "node-cron", "Nodemailer", "RBAC"],
+      "links": [
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/Vaccination-Management-System-Backend-" }
+      ]
+    },
+    {
+      "name": "Vehicle Booking API",
+      "description": "REST API for a vehicle booking platform. TypeScript throughout, Prisma ORM with PostgreSQL, Docker support, and deployed to Vercel.",
+      "stack": ["TypeScript", "Node.js", "Prisma", "PostgreSQL", "Docker", "Vercel"],
+      "links": [
+        { "label": "↗ Live",   "href": "https://vehicalbooking.vercel.app" },
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/Vahical_booking" }
+      ]
+    },
+    {
+      "name": "Hospital Management System",
+      "description": "Hospital management system in C++ demonstrating OOP design — classes, inheritance, encapsulation, and polymorphism.",
+      "stack": ["C++", "OOP"],
+      "links": [
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/Hospital_system_by_CPP_OOP" }
+      ]
+    }
+  ],
+  "hackathons": {
+    "label": "Competitions",
+    "heading": "Hackathons",
+    "items": [
+      {
+        "place": "🥇",
+        "name": "BAIUST CSE Fest Hackathon",
+        "sub": "1st Place · Team · View repo",
+        "subParts": [
+          { "text": "1st Place · Team · " },
+          { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hackathon_baiust_cse_fest" }
+        ],
+        "year": "2025"
+      },
+      {
+        "place": "🥈",
+        "name": "BAIUST CSE Fall Fest Hackathon",
+        "subParts": [
+          { "text": "2nd Place · Team · " },
+          { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hablu-s-MonBondhu" }
+        ],
+        "year": "2024"
+      },
+      {
+        "place": "🥉",
+        "name": "DevFest",
+        "subParts": [
+          { "text": "3rd Place · Team" }
+        ],
+        "year": "2023"
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "heading": "Internship",
+    "role": "Trainee Programmer",
+    "date": "2023",
+    "org": "BAIUST Cpmputer Club (BCC) — Internship Programme",
+    "descriptionParts": [
+      { "text": "Completed an internship covering JavaScript fundamentals, Git/GitHub workflows, and professional development practices. " },
+      { "text": "View coursework →", "href": "https://github.com/Moneemabdullah/BCC-internship-programme" }
+    ]
+  },
+  "contact": {
+    "label": "Get in touch",
+    "heading": "Contact",
+    "cards": [
+      { "platform": "Email",      "handle": "moneem.all.abdullah", "href": "mailto:moneem.all.abdullah@gmail.com" },
+      { "platform": "GitHub",     "handle": "Moneemabdullah",      "href": "https://github.com/Moneemabdullah" },
+      { "platform": "LinkedIn",   "handle": "moneem-all-abdullah", "href": "https://www.linkedin.com/in/moneem-all-abdullah-4b07a9288/" },
+      { "platform": "LeetCode",   "handle": "user7674pr",          "href": "https://leetcode.com/user7674pr/" },
+      { "platform": "Facebook",   "handle": "moneemall.abdullah",  "href": "https://www.facebook.com/moneemall.abdullah/" },
+      { "platform": "Resume / CV","handle": "Download PDF →",      "href": "https://drive.google.com/file/d/1nUPsydlu0WvAMucFUnmZjaAKpyJVyksH/view?usp=sharing" }
+    ]
+  },
+  "footer": {
+    "left": "Abdullah Al Moneem · BAIUST, Bangladesh",
+    "right": {
+      "label": "moneem.pro.bd",
+      "href": "https://moneem.pro.bd"
+    }
+  },
+  "social": {
+    "github":   "https://github.com/Moneemabdullah",
+    "linkedin": "https://www.linkedin.com/in/moneem-all-abdullah-4b07a9288/",
+    "leetcode": "https://leetcode.com/user7674pr/",
+    "facebook": "https://www.facebook.com/moneemall.abdullah/"
+  }
+}
