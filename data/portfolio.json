@@ -201,7 +201,7 @@
     "cards": [
       { "platform": "Email",      "handle": "moneem.all.abdullah", "href": "mailto:moneem.all.abdullah@gmail.com" },
       { "platform": "GitHub",     "handle": "Moneemabdullah",      "href": "https://github.com/Moneemabdullah" },
-      { "platform": "LinkedIn",   "handle": "moneem-all-abdullah", "href": "https://www.linkedin.com/in/moneem-all-abdullah-4b07a9288/" },
+      { "platform": "LinkedIn",   "handle": "moneem-all-abdullah", "href": "https://www.linkedin.com/in/moneema1/" },
       { "platform": "LeetCode",   "handle": "user7674pr",          "href": "https://leetcode.com/user7674pr/" },
       { "platform": "Facebook",   "handle": "moneemall.abdullah",  "href": "https://www.facebook.com/moneemall.abdullah/" },
       { "platform": "Resume / CV","handle": "Download PDF →",      "href": "https://drive.google.com/file/d/1nUPsydlu0WvAMucFUnmZjaAKpyJVyksH/view?usp=sharing" }
@@ -216,7 +216,7 @@
   },
   "social": {
     "github":   "https://github.com/Moneemabdullah",
-    "linkedin": "https://www.linkedin.com/in/moneem-all-abdullah-4b07a9288/",
+    "linkedin": "https://www.linkedin.com/in/moneema1/",
     "leetcode": "https://leetcode.com/user7674pr/",
     "facebook": "https://www.facebook.com/moneemall.abdullah/"
   }
