@@ -29,7 +29,7 @@
     "badges": [
       { "num": "33+",  "label": "Public repos" },
       { "num": "300+", "label": "DSA problems" },
-      { "num": "6×",   "label": "Hackathon places" }
+      { "num": "5×",   "label": "Hackathon places" }
     ]
   },
   "about": {
@@ -209,15 +209,6 @@
           { "text": "2nd Runner-up · Team" }
         ],
         "year": "2025"
-      },
-      {
-        "place": "🥈",
-        "name": "BAIUST CSE Fall Fest Hackathon",
-        "subParts": [
-          { "text": "2nd Place · Team · " },
-          { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hablu-s-MonBondhu" }
-        ],
-        "year": "2024"
       },
       {
         "place": "🥉",
