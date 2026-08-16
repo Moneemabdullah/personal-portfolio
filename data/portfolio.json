@@ -29,7 +29,7 @@
     "badges": [
       { "num": "33+",  "label": "Public repos" },
       { "num": "300+", "label": "DSA problems" },
-      { "num": "3×",   "label": "Hackathon places" }
+      { "num": "6×",   "label": "Hackathon places" }
     ]
   },
   "about": {
@@ -178,11 +178,35 @@
     "items": [
       {
         "place": "🥇",
-        "name": "BAIUST CSE Fest Hackathon",
-        "sub": "1st Place · Team · View repo",
+        "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "1st Place · Team · " },
+          { "text": "Champion · Team · " },
+          { "text": "View repo", "href": "https://github.com/Moneemabdullah/CSE-SPRING-FEST-2026" }
+        ],
+        "year": "2026"
+      },
+      {
+        "place": "🥇",
+        "name": "BAIUST CSE Fest Hackathon",
+        "subParts": [
+          { "text": "Champion · Team · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hackathon_baiust_cse_fest" }
+        ],
+        "year": "2025"
+      },
+      {
+        "place": "🥈",
+        "name": "BAIUST CSE Fall Fest Hackathon",
+        "subParts": [
+          { "text": "Runner-up · Team" }
+        ],
+        "year": "2025"
+      },
+      {
+        "place": "🥉",
+        "name": "BAIUST Prompt Engineering Contest",
+        "subParts": [
+          { "text": "2nd Runner-up · Team" }
         ],
         "year": "2025"
       },
@@ -199,7 +223,7 @@
         "place": "🥉",
         "name": "DevFest",
         "subParts": [
-          { "text": "3rd Place · Team" }
+          { "text": "2nd Runner-up · Team" }
         ],
         "year": "2023"
       }
