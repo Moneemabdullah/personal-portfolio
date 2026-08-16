@@ -180,7 +180,7 @@
         "place": "🥇",
         "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "Champion · Team · " },
+          { "text": "Champion · New_folder · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/CSE-SPRING-FEST-2026" }
         ],
         "year": "2026"
@@ -189,7 +189,7 @@
         "place": "🥇",
         "name": "BAIUST CSE Fest Hackathon",
         "subParts": [
-          { "text": "Champion · Team · " },
+          { "text": "Champion · New_folder · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hackathon_baiust_cse_fest" }
         ],
         "year": "2025"
@@ -198,7 +198,7 @@
         "place": "🥈",
         "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "Runner-up · Team" }
+          { "text": "Runner-up · New_folder" }
         ],
         "year": "2025"
       },
@@ -206,7 +206,7 @@
         "place": "🥉",
         "name": "BAIUST Prompt Engineering Contest",
         "subParts": [
-          { "text": "2nd Runner-up · Team" }
+          { "text": "2nd Runner-up · New_folder" }
         ],
         "year": "2025"
       },
@@ -214,7 +214,7 @@
         "place": "🥈",
         "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "2nd Place · Team · " },
+          { "text": "2nd Place · New_folder · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hablu-s-MonBondhu" }
         ],
         "year": "2024"
@@ -223,7 +223,7 @@
         "place": "🥉",
         "name": "DevFest",
         "subParts": [
-          { "text": "2nd Runner-up · Team" }
+          { "text": "2nd Runner-up · New_folder" }
         ],
         "year": "2023"
       }
