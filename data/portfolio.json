@@ -2,8 +2,8 @@
   "site": {
     "name": "Abdullah Al Moneem",
     "shortName": "Moneem",
-    "title": "Abdullah Al Moneem — Backend & Full-Stack Developer",
-    "description": "Backend & full-stack developer. I build REST APIs, auth systems, and web applications — with TypeScript, Node.js, and a focus on clean structure.",
+    "title": "Abdullah Al Moneem — Full-Stack Developer (React, Next.js, Node.js)",
+    "description": "Full-stack developer building React/Next.js frontends and Node.js/PostgreSQL backends — REST APIs, authentication systems, and production deployments.",
     "url": "https://moneem.pro.bd",
     "email": "moneem.all.abdullah@gmail.com",
     "location": "Bangladesh",
@@ -20,7 +20,7 @@
   "hero": {
     "eyebrow": "Open to opportunities",
     "name": "Abdullah Al<br>Moneem",
-    "sub": "Backend & full-stack developer. I build REST APIs, auth systems, and web applications — with TypeScript, Node.js, and a focus on clean structure.",
+    "sub": "Full-stack developer building React/Next.js frontends and Node.js/PostgreSQL backends — REST APIs, authentication systems, and production deployments.",
     "actions": [
       { "label": "↓ Download CV", "href": "https://drive.google.com/file/d/1nUPsydlu0WvAMucFUnmZjaAKpyJVyksH/view?usp=sharing", "variant": "primary", "external": true },
       { "label": "GitHub",       "href": "https://github.com/Moneemabdullah", "variant": "outline",  "external": true },
@@ -36,8 +36,8 @@
     "label": "Background",
     "heading": "About Me",
     "paragraphs": [
-      "I'm a CSE student at BAIUST, Bangladesh, focused on backend engineering and full-stack development. I enjoy building systems that are well-structured and maintainable — not just working code.",
-      "I've built projects ranging from an IoT-integrated agriculture platform to a multi-role vaccination management system, with proper authentication, role-based access, and clean folder architecture.",
+      "I'm a CSE student at BAIUST, Bangladesh, building full-stack web applications — React and Next.js on the frontend, Node.js/Express and PostgreSQL/MongoDB on the backend. I enjoy building systems that are well-structured end-to-end, not just working code.",
+      "My projects span a full-stack freelancing marketplace (OutSourceX), a food ordering platform, and an IoT-integrated smart agriculture system — each built with proper authentication, role-based access, and REST API integration across both the client and server.",
       "Outside of coding, I do competitive programming (300+ problems solved) and have placed in three university-level hackathons."
     ],
     "details": [
@@ -54,6 +54,20 @@
     "heading": "Technical Skills",
     "categories": [
       {
+        "name": "Frontend",
+        "tags": [
+          { "label": "React",       "highlight": true },
+          { "label": "Next.js",     "highlight": true },
+          { "label": "TypeScript",  "highlight": true },
+          { "label": "Vite" },
+          { "label": "React Router" },
+          { "label": "Tailwind CSS" },
+          { "label": "Bootstrap" },
+          { "label": "HTML / CSS" },
+          { "label": "Axios" }
+        ]
+      },
+      {
         "name": "Backend",
         "tags": [
           { "label": "Node.js", "highlight": true },
@@ -67,17 +81,6 @@
           { "label": "node-cron" },
           { "label": "Helmet" },
           { "label": "Zod" }
-        ]
-      },
-      {
-        "name": "Frontend",
-        "tags": [
-          { "label": "React",       "highlight": true },
-          { "label": "TypeScript",  "highlight": true },
-          { "label": "Vite" },
-          { "label": "Tailwind CSS" },
-          { "label": "Bootstrap" },
-          { "label": "HTML / CSS" }
         ]
       },
       {
@@ -107,6 +110,24 @@
     ]
   },
   "projects": [
+    {
+      "name": "OutSourceX",
+      "description": "Full-stack freelancing marketplace supporting clients, freelancers, admins, and super-admins. Built the Next.js frontend end-to-end (job listings, proposal/bidding flows, contracts, milestones, real-time messaging UI, role-based dashboards) and the backend (Better Auth with Google OAuth and OTP verification, Prisma/PostgreSQL, Socket.io real-time messaging, escrow payment workflows, Cloudinary, Zod validation).",
+      "stack": ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "Better Auth", "Socket.io", "Cloudinary"],
+      "links": [
+        { "label": "↗ Live",   "href": "https://outsourcex-client.vercel.app/" },
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/OutSourceX" }
+      ]
+    },
+    {
+      "name": "FoodPortal Client",
+      "description": "Food ordering and delivery web app. Built meal browsing, provider listings, and authentication (sign in/sign up) flows consuming a REST backend, with a responsive component-based UI deployed independently on Vercel.",
+      "stack": ["React", "REST API Integration", "Responsive UI", "Vercel"],
+      "links": [
+        { "label": "↗ Live",   "href": "https://food-portal-client.vercel.app/" },
+        { "label": "GitHub",   "href": "https://github.com/Moneemabdullah/FoodPortalClient" }
+      ]
+    },
     {
       "name": "Agriculture on Smart Way",
       "description": "Full-stack smart agriculture platform connecting farmers, suppliers, and consumers. Integrates real-time IoT telemetry from Arduino (ESP32) sensors for soil and environment monitoring. 30+ REST API endpoints, role-based dashboards, CI/CD workflows, Cloudinary image upload, and Docker containerization.",
@@ -189,7 +210,7 @@
     "heading": "Internship",
     "role": "Trainee Programmer",
     "date": "2023",
-    "org": "BAIUST Cpmputer Club (BCC) — Internship Programme",
+    "org": "BAIUST Computer Club (BCC) — Internship Programme",
     "descriptionParts": [
       { "text": "Completed an internship covering JavaScript fundamentals, Git/GitHub workflows, and professional development practices. " },
       { "text": "View coursework →", "href": "https://github.com/Moneemabdullah/BCC-internship-programme" }
