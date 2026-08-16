@@ -38,7 +38,7 @@
     "paragraphs": [
       "I'm a CSE student at BAIUST, Bangladesh, building full-stack web applications — React and Next.js on the frontend, Node.js/Express and PostgreSQL/MongoDB on the backend. I enjoy building systems that are well-structured end-to-end, not just working code.",
       "My projects span a full-stack freelancing marketplace (OutSourceX), a food ordering platform, and an IoT-integrated smart agriculture system — each built with proper authentication, role-based access, and REST API integration across both the client and server.",
-      "Outside of coding, I do competitive programming (300+ problems solved) and have placed in three university-level hackathons."
+      "Outside of coding, I do competitive programming (300+ problems solved) and have placed in six university-level hackathons."
     ],
     "details": [
       { "key": "UNIVERSITY", "value": "BAIUST" },
@@ -180,7 +180,7 @@
         "place": "🥇",
         "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "Champion · New_folder · " },
+          { "text": "Champion · Team · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/CSE-SPRING-FEST-2026" }
         ],
         "year": "2026"
@@ -189,7 +189,7 @@
         "place": "🥇",
         "name": "BAIUST CSE Fest Hackathon",
         "subParts": [
-          { "text": "Champion · New_folder · " },
+          { "text": "Champion · Team · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hackathon_baiust_cse_fest" }
         ],
         "year": "2025"
@@ -198,7 +198,7 @@
         "place": "🥈",
         "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "Runner-up · New_folder" }
+          { "text": "Runner-up · Team" }
         ],
         "year": "2025"
       },
@@ -206,7 +206,7 @@
         "place": "🥉",
         "name": "BAIUST Prompt Engineering Contest",
         "subParts": [
-          { "text": "2nd Runner-up · New_folder" }
+          { "text": "2nd Runner-up · Team" }
         ],
         "year": "2025"
       },
@@ -214,7 +214,7 @@
         "place": "🥈",
         "name": "BAIUST CSE Fall Fest Hackathon",
         "subParts": [
-          { "text": "2nd Place · New_folder · " },
+          { "text": "2nd Place · Team · " },
           { "text": "View repo", "href": "https://github.com/Moneemabdullah/Hablu-s-MonBondhu" }
         ],
         "year": "2024"
@@ -223,7 +223,7 @@
         "place": "🥉",
         "name": "DevFest",
         "subParts": [
-          { "text": "2nd Runner-up · New_folder" }
+          { "text": "2nd Runner-up · Team" }
         ],
         "year": "2023"
       }
