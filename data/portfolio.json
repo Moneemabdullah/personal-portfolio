@@ -22,7 +22,7 @@
     "name": "Abdullah Al<br>Moneem",
     "sub": "Full-stack developer building React/Next.js frontends and Node.js/PostgreSQL backends — REST APIs, authentication systems, and production deployments.",
     "actions": [
-      { "label": "↓ Download CV", "href": "https://drive.google.com/file/d/1nUPsydlu0WvAMucFUnmZjaAKpyJVyksH/view?usp=sharing", "variant": "primary", "external": true },
+      { "label": "↓ Download CV", "href": "https://www.overleaf.com/read/rpyrjdjysxwg#c3a165", "variant": "primary", "external": true },
       { "label": "GitHub",       "href": "https://github.com/Moneemabdullah", "variant": "outline",  "external": true },
       { "label": "Email me",     "href": "mailto:moneem.all.abdullah@gmail.com", "variant": "outline" }
     ],
@@ -240,7 +240,7 @@
       { "platform": "LinkedIn",   "handle": "moneem-all-abdullah", "href": "https://www.linkedin.com/in/moneema1/" },
       { "platform": "LeetCode",   "handle": "user7674pr",          "href": "https://leetcode.com/user7674pr/" },
       { "platform": "Facebook",   "handle": "moneemall.abdullah",  "href": "https://www.facebook.com/moneemall.abdullah/" },
-      { "platform": "Resume / CV","handle": "Download PDF →",      "href": "https://drive.google.com/file/d/1nUPsydlu0WvAMucFUnmZjaAKpyJVyksH/view?usp=sharing" }
+      { "platform": "Resume / CV","handle": "Download PDF →",      "href": "https://www.overleaf.com/read/rpyrjdjysxwg#c3a165" }
     ]
   },
   "footer": {
